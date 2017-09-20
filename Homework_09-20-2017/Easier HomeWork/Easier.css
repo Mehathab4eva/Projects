@@ -1,0 +1,80 @@
+body {
+	background-color: #777777;
+
+}
+
+header {
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background-color: white;
+
+}
+
+
+
+nav {
+	text-align: center;
+	background-color: white;
+	height: 80px;
+	line-height: 80px;
+	clear: both;
+
+
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+
+}
+
+section {
+	margin-top: 20px;
+	float: left;
+	background-color: white;
+/*	padding-bottom: 10px;
+*/	width: 49%;
+	text-align: center;
+	height: 160px;
+	margin-right: 5px;
+
+}
+
+aside {
+	margin-top: 20px;
+	float: right;
+	background-color: white;
+/*	padding-bottom: 10px; 
+*/	width: 49%;
+	text-align: center;
+	height: 160px;
+	margin-left: 5px;
+}
+
+footer {
+	clear: both;
+	overflow: auto;
+	background-color: white;
+	text-align: center;
+	margin-top: 20px;
+/*	border: solid black;
+*/	position: relative;
+	top:17px;
+}
+
+section p {
+	clear: both;
+	background-color: #777777;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin: 5px;
+}
+
+.Layout {
+display: none;
+}
