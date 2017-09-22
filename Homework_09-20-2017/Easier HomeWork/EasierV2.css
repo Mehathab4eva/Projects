@@ -7,7 +7,7 @@ header {
 	line-height: 80px;
 	text-align: center;
 	background-color: white;
-
+	color: #777777;
 }
 
 
@@ -23,6 +23,7 @@ nav {
 }
 
 nav ul li {
+	color: #777777;
 	list-style: none;
 	display: inline-block;
 	text-align: center;
@@ -38,8 +39,9 @@ section {
 /*	padding-bottom: 10px;
 */	width: 49%;
 	text-align: center;
-	height: 280px;
+	height: 375px;
 	margin-right: 5px;
+	color: #777777;
 
 }
 
@@ -50,8 +52,9 @@ aside {
 /*	padding-bottom: 10px; 
 */	width: 49%;
 	text-align: center;
-	height: 280px;
+	height: 375px;
 	margin-left: 5px;
+	color: #777777;
 }
 
 footer {
@@ -62,32 +65,96 @@ footer {
 	margin-top: 20px;
 /*	border: solid black;
 */	position: relative;
-	top:17px;
+	top:23px;
+	color: #777777;
+	height: 96px;
+	line-height: 55px;
 }
 
 section p {
 	clear: both;
-	background-color: #777777;
-	height: 40px;
-	line-height: 40px;
+	background-color: white;
+	height: 80px;
+	line-height: 80px;
 	text-align: center;
-	margin: 5px;
-	overflow: auto;
-}
+	/*margin: 5px;*/
+/*	border: solid black;
+*/	margin: 20px 3px 1px 3px;
+	color: #777777;
+/*	position: relative;
+	top:75px;
+*/	width: 98%;	
+	}
 
 .Sample {
 display: none;
 }
 
-Section h1 {
-	background-color: #777777;
+/*section h2 {
+	background-color: white;
 	font-size: 1.75em;
+	float: left;
+	width: 98%;
+	border: solid black;
+	margin: 1px 3px 1px 3px;
+	line-height: 29px;
+}*/
+
+
+Section article h1 {
+	background-color: white;
+	font-size: 1.75em;
+	clear: both;
+	width: 98%;
+/*	border: solid black;
+*/	margin: 80px 3px 1px 3px;
+/*	position: relative;
+*//*	top: 43	px;*/
+	height: 43px;
+	line-height: 40px;
+	text-align: center;
 }
 
-Section h2 {
-	background-color: #777777;
+Section  h2 {
+	background-color: white;
+/*	float: left;*/
+	width: 98%;
+/*	border: solid black;
+*/	margin: 10px 3px 1px 3px;
+/*	position: relative;
+	top: 49px;*/
 }
 
 Section h3 {
+	clear: both;
+	background-color: white;
+	width: 98%;
+/*	border: solid black;
+*/	margin: 10px 3px 2px 3px;
+/*	position: relative;
+	top:61px;
+*/
+}
+
+
+.article {		
+	height: 40px;
 	background-color: #777777;
+	font-size: 1.75em;
+	float: left;
+	width: 98%;
+/*	border: solid black;
+*/	margin: 10px 3px 1px 3px;
+	line-height: 40px;
+/*	position: relative;
+	top: 50px;
+*/	color: white;
+	border: none;
+}
+
+article {
+	height: 80%;
+	background-color: #777777;
+/*	border: solid black;
+*/	margin: 1px 3px 1px 3px;
 }
